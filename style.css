@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 500px;
+    margin-top: 10px;
+}
+.button-container button {
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#inputbox{
+    width: 500px;
+    height: 40px;
+    font-size: 35px;
+    text-align: right;
+}
